@@ -24,11 +24,29 @@ h1 {
     margin-bottom: 20px;
 }
 
-.news-container {
+.about-container, .news-section {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+footer .news-container {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
 }
 
 label {
@@ -60,4 +78,13 @@ button:hover {
 #subscriptionMessage {
     margin-top: 10px;
     color: #4CAF50;
+}
+
+.news-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-section li {
+    margin-bottom: 10px;
 }
